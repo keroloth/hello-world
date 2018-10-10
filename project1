@@ -1,0 +1,19 @@
+first = float(input("Specify first number: "))
+second = float(input("Specify second number: "))
+result = ''
+operation = input('Specify "sub" for substraction, "add" for addition, "mul" for multiplication or "div" for division: ')
+
+if operation == 'sub':
+  result = first - second
+  print(result)
+elif operation == 'add':
+  result = first + second
+  print(result)
+elif operation == 'mul':
+  result = first * second
+  print(result)
+elif operation == 'div':
+  result = first / second
+  print(result)
+else:
+  print('wrong input, program terminated')
